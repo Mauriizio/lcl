@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const items = [
   { href: "/", label: "Inicio" },
-  { href: "/tour", label: "Tickets" },
+  { href: "/tour", label: "Tour Dates" },
   { href: "/about", label: "Acerca de" },
   { href: "/contact", label: "Contacto" },
 ];
@@ -32,7 +32,7 @@ export default function Navbar() {
     "relative inline-block px-3 py-1 text-sm font-crazy text-neutral-100 transition";
   const lineBehind =
     "after:pointer-events-none after:absolute after:left-0 after:right-0 after:top-1/2 after:-translate-y-1/2 " +
-    "after:h-[0.45em] after:rounded after:bg-pink-500/75 after:-z-10 " +
+    "after:h-[0.45em] after:rounded after:bg-orange-500/75 after:-z-10 " +
     "after:opacity-0 after:scale-x-75 after:origin-center " +
     "after:transition-all after:duration-200 hover:after:opacity-100 hover:after:scale-x-100";
   const active =
