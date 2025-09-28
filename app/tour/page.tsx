@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Fechas oficiales de la gira en Latinoamérica.",
 };
 
-export const revalidate = 60; // ISR (si luego conectas un CMS)
+export const revalidate = 60; // ISR (si luego conecto un CMS)
 
 export default async function TourPage() {
   const shows = await getTourDates();

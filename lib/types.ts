@@ -18,3 +18,8 @@ export type Release = {
   posterSrc?: string;
 };
 
+export type MemberContact = {
+  spotify?: string;
+  youtube?: string;
+};
+

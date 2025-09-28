@@ -39,6 +39,16 @@ export async function getTourDates(): Promise<TourDate[]> {
       date: "2025-09-14T19:00:00-00:00",
       ticketUrl: "https://www.fourvenues.com/es/gekko-club-tenerife/events/d14-micro-tdh-en-concierto-14-09-2025-RX88",
     },
+
+    {
+      id: "Santiago-14-09-26",
+      city: "Santiago de Chile",
+      country: "Chile",
+      venue: "Teatro Caupolicán",
+      address: "Calle San Diego 850, Santiago, Chile",
+      date: "2026-10-20T20:00:00-04:00",
+      ticketUrl: "https://www.fourvenues.com/es/gekko-club-tenerife/events/",
+    },
     
   ];
 }
