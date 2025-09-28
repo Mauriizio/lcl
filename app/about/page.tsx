@@ -51,18 +51,20 @@ export default function AboutPage() {
 
       {/* Galería de fotos */}
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <img src="/lcl/group1.jpg" alt="Los Chamitos Locos" className="rounded-lg shadow-lg" />
-        <img src="/lcl/group2.jpg" alt="Los Chamitos Locos" className="rounded-lg shadow-lg" />
+        <img src="/lcl/group4.jpg" alt="Los Chamitos Locos" className="rounded-lg shadow-lg" />
+        <img src="/lcl/group5.jpg" alt="Los Chamitos Locos" className="rounded-lg shadow-lg" />
         <img src="/lcl/group3.jpg" alt="Los Chamitos Locos" className="rounded-lg shadow-lg" />
       </section>
 
       {/* Enlaces globales */}
       <section className="flex justify-center gap-6">
-        <Link href="https://open.spotify.com" target="_blank" className="btn-secondary">
-          Spotify
+        <Link href="https://open.spotify.com/intl-es/track/6FH5L2afYhFk7wduzDPGXn" target="_blank" className="btn-secondary inline-flex items-center justify-center rounded-md p-1.5
+                 ring-1 ring-white/10 hover:ring-white/30 transition text-green-500">
+          <SpotifyIcon width={40} height={40} />
         </Link>
-        <Link href="https://youtube.com" target="_blank" className="btn-secondary">
-          YouTube
+        <Link href="https://www.youtube.com/watch?v=UvouMwUcm6E" target="_blank" className="btn-secondary inline-flex items-center justify-center rounded-md p-1.5
+                 ring-1 ring-white/10 hover:ring-white/30 transition text-red-500">
+          <YouTubeIcon width={40} height={40} />
         </Link>
       </section>
 
