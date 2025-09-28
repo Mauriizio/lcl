@@ -13,11 +13,11 @@ type SingleSpotlightProps = {
 
 export default function SingleSpotlight({
   title = "New Single",
-  subtitle = "Sin Ti No Cuadra",
-  ctaHref = "https://www.youtube.com/watch?v=Kqiz2dieTkQ",
-  mp4Src = "/hero2.mp4",
-  webmSrc = "/hero2.webm",
-  posterSrc = "/hero-poster.jpg",
+  subtitle = "Prendo pá Fumar",
+  ctaHref = "https://www.youtube.com/watch?v=UvouMwUcm6E",
+  mp4Src = "/prendo.mp4",
+  webmSrc = "/prendo.webm",
+  posterSrc = "/prendo.png",
 }: SingleSpotlightProps) {
   const [reduced, setReduced] = useState(false);
 
