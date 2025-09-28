@@ -15,7 +15,7 @@ export default function Hero({
   title = "",
   subtitle = "",
   ticketsHref = "/tour",
-  playHref = "https://www.youtube.com/watch?v=UvouMwUcm6E",
+  playHref = "https://www.youtube.com/watch?v=UvouMwUcm6Ey",
   posterSrc = "/bg-hero.png",
   posterSrcMobile = "/chamitos.png",
   navOffsetPx = 0,
